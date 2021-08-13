@@ -4,16 +4,17 @@ My "simple" vim setup
 
 ## How to
 
-Download NodeJs ( version > 12 )
-Download Vimplug  
-Download OceanicNext  
-Inside of .vimrc file run :PlugInstall  
+Create folder ~/.config/nvim/  
+Download NodeJs ( version > 12 )  
+Download Vimplug into nvim/ folder  
+Download OceanicNext and copy the colors/ folder into nvim/colors/  
+Inside of init.vim file run :PlugInstall  
+:CocInstall modules  
 
-This will create the vim/ folder  
-mkdir vim/colors/  
-
-from the OceanicNext file, copy only the color files into vim/colors/
-
-Lastly install python language server
-:CocInstall coc-python
-
+Where modules  
+coc-html  
+coc-css  
+coc-markdownlint  
+coc-json  
+coc-emmet  
+coc-pyright  
